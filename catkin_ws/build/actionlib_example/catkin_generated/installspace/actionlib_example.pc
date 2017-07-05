@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/install
+
+Name: actionlib_example
+Description: Description of actionlib_example
+Version: 0.0.0
+Cflags: -I/home/serena/catkin_ws/install/include
+Libs: -L/home/serena/catkin_ws/install/lib 
+Requires: actionlib_msgs

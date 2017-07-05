@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/devel
+
+Name: kinect2_depth_registration
+Description: Description of kinect2_depth_registration
+Version: 0.0.1
+Cflags: -I/home/serena/catkin_ws/src/kinect2-ros/kinect2_depth_registration/include
+Libs: -L/home/serena/catkin_ws/devel/lib -ldepth_registration
+Requires: 

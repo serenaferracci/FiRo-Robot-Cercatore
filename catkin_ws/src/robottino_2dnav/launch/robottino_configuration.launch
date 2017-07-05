@@ -1,0 +1,12 @@
+<launch>
+	<include file="$(find freenect_launch)/launch/freenect.launch" />
+
+  <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan" args="image:=/camera/depth/image_raw" output="screen">
+  </node>
+
+  <node pkg="srrg_orazio_ros" type="orazio_robot_node" name="orazio_robot_node" output="screen">
+  </node>
+
+  <node pkg="thin_state_publisher" type="thin_state_publisher_node" name="thin_state_publisher_node" args="/home/serena/catkin_ws/src/robottino_2dnav/config/transform.txt" output="screen">
+  </node>
+</launch>

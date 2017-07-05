@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/devel
+
+Name: thin_state_publisher
+Description: Description of thin_state_publisher
+Version: 0.0.0
+Cflags: -I/home/serena/catkin_ws/src/thin_drivers/thin_state_publisher/src
+Libs: -L/home/serena/catkin_ws/devel/lib -lthin_globals_library -lthin_txt_io_library -lthin_ros_wrappers_library
+Requires: 

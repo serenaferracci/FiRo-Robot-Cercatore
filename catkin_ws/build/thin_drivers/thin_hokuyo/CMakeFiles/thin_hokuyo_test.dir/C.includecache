@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/serena/catkin_ws/src/thin_drivers/thin_hokuyo/src/hokuyo.h
+
+/home/serena/catkin_ws/src/thin_drivers/thin_hokuyo/src/thin_hokuyo_test.c
+hokuyo.h
+/home/serena/catkin_ws/src/thin_drivers/thin_hokuyo/src/hokuyo.h
+string.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+signal.h
+-
+time.h
+-
+sys/time.h
+-
+sys/timeb.h
+-
+

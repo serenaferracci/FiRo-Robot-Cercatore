@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/arduino_robot_shell.dir/arduino_robot_shell.cpp.o  -o /home/serena/catkin_ws/devel/lib/arduino_robot/arduino_robot_shell -rdynamic /home/serena/catkin_ws/devel/lib/libarduino_robot_library.so -lpthread -Wl,-rpath,/home/serena/catkin_ws/devel/lib 

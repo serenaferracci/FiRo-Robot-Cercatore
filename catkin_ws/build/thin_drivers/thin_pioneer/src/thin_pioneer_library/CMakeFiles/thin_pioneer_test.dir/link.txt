@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3   CMakeFiles/thin_pioneer_test.dir/thin_pioneer_test.cpp.o  -o /home/serena/catkin_ws/devel/lib/thin_pioneer/thin_pioneer_test -rdynamic /home/serena/catkin_ws/devel/lib/libthin_pioneer_library.so -Wl,-rpath,/home/serena/catkin_ws/devel/lib 

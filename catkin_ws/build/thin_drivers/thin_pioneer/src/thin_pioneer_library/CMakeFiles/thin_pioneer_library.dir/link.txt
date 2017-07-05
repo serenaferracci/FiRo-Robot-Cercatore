@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3  -shared -Wl,-soname,libthin_pioneer_library.so -o /home/serena/catkin_ws/devel/lib/libthin_pioneer_library.so CMakeFiles/thin_pioneer_library.dir/pioneer_robot.cpp.o CMakeFiles/thin_pioneer_library.dir/carmen_get_time.c.o CMakeFiles/thin_pioneer_library.dir/carmenserial.c.o CMakeFiles/thin_pioneer_library.dir/pioneer_lib.c.o 

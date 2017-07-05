@@ -1,0 +1,1 @@
+/usr/bin/c++    --std=gnu++11 -Wall -O3 -DNDEBUG   CMakeFiles/orazio_robot_monitor.dir/orazio_robot_monitor.cpp.o  -o /home/serena/catkin_ws/devel/lib/srrg_orazio_core/orazio_robot_monitor -rdynamic /home/serena/catkin_ws/devel/lib/liborazio_core_library.so -lcurses -lpthread -Wl,-rpath,/home/serena/catkin_ws/devel/lib 

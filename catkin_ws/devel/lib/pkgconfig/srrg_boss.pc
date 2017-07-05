@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/devel
+
+Name: srrg_boss
+Description: Description of srrg_boss
+Version: 1.0.0
+Cflags: -I/home/serena/catkin_ws/src/srrg_boss/src
+Libs: -L/home/serena/catkin_ws/devel/lib -lsrrg_boss_library
+Requires: 

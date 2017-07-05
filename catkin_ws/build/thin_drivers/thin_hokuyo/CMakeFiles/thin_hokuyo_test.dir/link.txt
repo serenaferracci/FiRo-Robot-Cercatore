@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/thin_hokuyo_test.dir/src/thin_hokuyo_test.c.o  -o /home/serena/catkin_ws/devel/lib/thin_hokuyo/thin_hokuyo_test -rdynamic /home/serena/catkin_ws/devel/lib/libthin_hokuyo_library.so -Wl,-rpath,/home/serena/catkin_ws/devel/lib 

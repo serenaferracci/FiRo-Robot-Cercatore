@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/serena/catkin_ws/src/thin_drivers/thin_joystick_teleop/src/joy_event_scanner.cpp
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+linux/joystick.h
+-
+cstdio
+-
+string
+-
+iostream
+-
+

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/serena/catkin_ws/src/thin_drivers/thin_kobuki/src/thin_kobuki_library/kobuki_protocol.h
+stdint.h
+-
+vector
+-
+
+/home/serena/catkin_ws/src/thin_drivers/thin_kobuki/src/thin_kobuki_library/kobuki_robot.h
+stdint.h
+-
+string
+-
+istream
+-
+
+/home/serena/catkin_ws/src/thin_drivers/thin_kobuki/src/thin_kobuki_library/serial.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+termios.h
+-
+unistd.h
+-
+
+/home/serena/catkin_ws/src/thin_drivers/thin_kobuki/src/thin_kobuki_library/thin_kobuki_test.cpp
+serial.h
+/home/serena/catkin_ws/src/thin_drivers/thin_kobuki/src/thin_kobuki_library/serial.h
+kobuki_robot.h
+/home/serena/catkin_ws/src/thin_drivers/thin_kobuki/src/thin_kobuki_library/kobuki_robot.h
+kobuki_protocol.h
+/home/serena/catkin_ws/src/thin_drivers/thin_kobuki/src/thin_kobuki_library/kobuki_protocol.h
+iostream
+-
+linux/joystick.h
+-
+

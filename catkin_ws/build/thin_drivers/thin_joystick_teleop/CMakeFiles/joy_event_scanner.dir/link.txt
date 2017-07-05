@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/joy_event_scanner.dir/src/joy_event_scanner.cpp.o  -o /home/serena/catkin_ws/devel/lib/thin_joystick_teleop/joy_event_scanner -rdynamic 

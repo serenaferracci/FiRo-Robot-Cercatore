@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/install
+
+Name: srrg_core_ros
+Description: Description of srrg_core_ros
+Version: 1.0.0
+Cflags: -I/home/serena/catkin_ws/install/include
+Libs: -L/home/serena/catkin_ws/install/lib -lsrrg_ros_wrappers_library
+Requires: srrg_core tf image_transport std_msgs sensor_msgs cv_bridge

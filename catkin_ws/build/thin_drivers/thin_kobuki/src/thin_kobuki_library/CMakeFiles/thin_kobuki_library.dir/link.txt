@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3  -shared -Wl,-soname,libthin_kobuki_library.so -o /home/serena/catkin_ws/devel/lib/libthin_kobuki_library.so CMakeFiles/thin_kobuki_library.dir/kobuki_robot.cpp.o CMakeFiles/thin_kobuki_library.dir/kobuki_protocol.cpp.o CMakeFiles/thin_kobuki_library.dir/serial.c.o 

@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/install
+
+Name: arduino_robot
+Description: Description of arduino_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/serena/catkin_ws/install/lib 
+Requires: 

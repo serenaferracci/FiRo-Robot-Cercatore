@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/serena/catkin_ws/src/thin_drivers/thin_pioneer/src/thin_pioneer_library/pioneer_robot.h
+string
+-
+
+/home/serena/catkin_ws/src/thin_drivers/thin_pioneer/src/thin_pioneer_library/thin_pioneer_test.cpp
+pioneer_robot.h
+/home/serena/catkin_ws/src/thin_drivers/thin_pioneer/src/thin_pioneer_library/pioneer_robot.h
+iostream
+-
+linux/joystick.h
+-
+cstdio
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+termios.h
+-
+unistd.h
+-
+

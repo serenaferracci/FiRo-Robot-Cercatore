@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/install
+
+Name: thin_msgs
+Description: Description of thin_msgs
+Version: 0.0.0
+Cflags: -I/home/serena/catkin_ws/install/include
+Libs: -L/home/serena/catkin_ws/install/lib 
+Requires: roscpp rospy std_msgs sensor_msgs message_runtime

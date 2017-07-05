@@ -1,0 +1,2 @@
+set(navig_robot_MESSAGE_FILES "/home/serena/catkin_ws/devel/share/navig_robot/msg/navigAction.msg;/home/serena/catkin_ws/devel/share/navig_robot/msg/navigActionGoal.msg;/home/serena/catkin_ws/devel/share/navig_robot/msg/navigActionResult.msg;/home/serena/catkin_ws/devel/share/navig_robot/msg/navigActionFeedback.msg;/home/serena/catkin_ws/devel/share/navig_robot/msg/navigGoal.msg;/home/serena/catkin_ws/devel/share/navig_robot/msg/navigResult.msg;/home/serena/catkin_ws/devel/share/navig_robot/msg/navigFeedback.msg")
+set(navig_robot_SERVICE_FILES "")

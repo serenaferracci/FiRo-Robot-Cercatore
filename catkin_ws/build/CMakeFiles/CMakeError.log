@@ -1,0 +1,99 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/serena/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b9ca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b9ca.dir/build.make CMakeFiles/cmTC_6b9ca.dir/build
+make[1]: ingresso nella directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_6b9ca.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6b9ca.dir/CheckSymbolExists.c.o   -c /home/serena/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6b9ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b9ca.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6b9ca.dir/CheckSymbolExists.c.o  -o cmTC_6b9ca -rdynamic 
+CMakeFiles/cmTC_6b9ca.dir/CheckSymbolExists.c.o: nella funzione "main":
+CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6b9ca.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_6b9ca" non riuscito
+make[1]: *** [cmTC_6b9ca] Errore 1
+make[1]: uscita dalla directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_6b9ca/fast" non riuscito
+make: *** [cmTC_6b9ca/fast] Errore 2
+
+File /home/serena/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/serena/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adb0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adb0e.dir/build.make CMakeFiles/cmTC_adb0e.dir/build
+make[1]: ingresso nella directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_adb0e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_adb0e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_adb0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adb0e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_adb0e.dir/CheckFunctionExists.c.o  -o cmTC_adb0e -rdynamic -lpthreads 
+/usr/bin/ld: impossibile trovare -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_adb0e.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_adb0e" non riuscito
+make[1]: *** [cmTC_adb0e] Errore 1
+make[1]: uscita dalla directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_adb0e/fast" non riuscito
+make: *** [cmTC_adb0e/fast] Errore 2
+
+
+Determining if the include file pgm.h exists failed with the following output:
+Change Dir: /home/serena/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e09e/fast"
+make[1]: ingresso nella directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+/usr/bin/make -f CMakeFiles/cmTC_2e09e.dir/build.make CMakeFiles/cmTC_2e09e.dir/build
+make[2]: ingresso nella directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_2e09e.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_2e09e.dir/CheckIncludeFile.cxx.o -c /home/serena/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:17: fatal error: pgm.h: File o directory non esistente
+compilation terminated.
+CMakeFiles/cmTC_2e09e.dir/build.make:65: set di istruzioni per l'obiettivo "CMakeFiles/cmTC_2e09e.dir/CheckIncludeFile.cxx.o" non riuscito
+make[2]: *** [CMakeFiles/cmTC_2e09e.dir/CheckIncludeFile.cxx.o] Errore 1
+make[2]: uscita dalla directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_2e09e/fast" non riuscito
+make[1]: *** [cmTC_2e09e/fast] Errore 2
+make[1]: uscita dalla directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+
+
+Performing C++ SOURCE FILE Test OpenCL_CXX_WORKS failed with the following output:
+Change Dir: /home/serena/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74df0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74df0.dir/build.make CMakeFiles/cmTC_74df0.dir/build
+make[1]: ingresso nella directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_74df0.dir/src.cxx.o
+/usr/bin/c++    -I/include/internal  -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -std=c++11 -fopenmp -DOpenCL_CXX_WORKS   -o CMakeFiles/cmTC_74df0.dir/src.cxx.o -c /home/serena/catkin_ws/build/CMakeFiles/CMakeTmp/src.cxx
+/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp/src.cxx:2:21: fatal error: CL/cl.hpp: File o directory non esistente
+compilation terminated.
+CMakeFiles/cmTC_74df0.dir/build.make:65: set di istruzioni per l'obiettivo "CMakeFiles/cmTC_74df0.dir/src.cxx.o" non riuscito
+make[1]: *** [CMakeFiles/cmTC_74df0.dir/src.cxx.o] Errore 1
+make[1]: uscita dalla directory "/home/serena/catkin_ws/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_74df0/fast" non riuscito
+make: *** [cmTC_74df0/fast] Errore 2
+
+Source file was:
+
+#include <CL/cl.hpp>
+int main() {
+  cl::Context context;
+  cl::Platform platform;
+  cl::Device device;
+  return 0;
+}

@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/devel
+
+Name: srrg_core
+Description: Description of srrg_core
+Version: 1.0.0
+Cflags: -I/home/serena/catkin_ws/src/srrg_core/src
+Libs: -L/home/serena/catkin_ws/devel/lib -lsrrg_core_types_library -lsrrg_system_utils_library -lsrrg_image_utils_library -lsrrg_messages_library -lsrrg_path_map_library
+Requires: srrg_boss

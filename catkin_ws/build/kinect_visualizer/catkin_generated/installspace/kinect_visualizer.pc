@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/install
+
+Name: kinect_visualizer
+Description: Description of kinect_visualizer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/serena/catkin_ws/install/lib 
+Requires: 

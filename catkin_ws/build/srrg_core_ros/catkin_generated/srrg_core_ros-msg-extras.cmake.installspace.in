@@ -1,0 +1,2 @@
+set(srrg_core_ros_MESSAGE_FILES "msg/BaseCameraInfoMsg.msg;msg/BinaryNodeRelationMsg.msg;msg/CloudMsg.msg;msg/ImageMapNodeMsg.msg;msg/LocalMapMsg.msg;msg/MapNodeMsg.msg;msg/MapNodeUpdateMsg.msg;msg/MapUpdateMsg.msg;msg/MultiCameraInfoMsg.msg;msg/MultiImageMapNodeMsg.msg;msg/PinholeCameraInfoMsg.msg;msg/RichPointMsg.msg;msg/SphericalDepthCameraInfo.msg;msg/SphericalDepthImage.msg;msg/StampedCloudMsg.msg;msg/Ticks.msg;msg/TrajectoryNodeMsg.msg")
+set(srrg_core_ros_SERVICE_FILES "srv/IdsSrv.srv;srv/LocalMapByIdSrv.srv")

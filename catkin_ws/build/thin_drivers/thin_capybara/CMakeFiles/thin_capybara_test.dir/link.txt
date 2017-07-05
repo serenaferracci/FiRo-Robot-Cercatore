@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/thin_capybara_test.dir/src/thin_capybara_test.cpp.o CMakeFiles/thin_capybara_test.dir/src/capybara_robot.cpp.o CMakeFiles/thin_capybara_test.dir/src/serial.c.o  -o /home/serena/catkin_ws/devel/lib/thin_capybara/thin_capybara_test -rdynamic 

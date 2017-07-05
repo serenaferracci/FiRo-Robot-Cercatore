@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/install
+
+Name: thin_capybara
+Description: Description of thin_capybara
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/serena/catkin_ws/install/lib 
+Requires: 

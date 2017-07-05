@@ -1,0 +1,1 @@
+/usr/bin/c++    --std=gnu++11 -O3 -DNDEBUG   CMakeFiles/srrg_kdtree_example.dir/srrg_kdtree_example.cpp.o  -o /home/serena/catkin_ws/devel/lib/srrg_core/srrg_kdtree_example -rdynamic /home/serena/catkin_ws/devel/lib/libsrrg_system_utils_library.so -lboost_system -Wl,-rpath,/home/serena/catkin_ws/devel/lib 

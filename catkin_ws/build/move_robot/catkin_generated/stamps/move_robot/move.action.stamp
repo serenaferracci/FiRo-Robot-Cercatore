@@ -1,0 +1,8 @@
+#goal definition
+float64 goal_d
+float64 goal_s
+---
+#result definition
+nav_msgs/Odometry odom
+---
+

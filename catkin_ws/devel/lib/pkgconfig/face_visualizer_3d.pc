@@ -1,0 +1,8 @@
+prefix=/home/serena/catkin_ws/devel
+
+Name: face_visualizer_3d
+Description: Description of face_visualizer_3d
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/serena/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libthin_kinematics_library.so -o /home/serena/catkin_ws/devel/lib/libthin_kinematics_library.so CMakeFiles/thin_kinematics_library.dir/kinematics.cpp.o 

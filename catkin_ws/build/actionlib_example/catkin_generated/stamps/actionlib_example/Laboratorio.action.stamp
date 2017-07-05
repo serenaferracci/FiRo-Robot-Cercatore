@@ -1,0 +1,8 @@
+#goal definition inviata dal client al server
+float64[] order
+---
+#result definition
+float64[] sequence
+---
+#feedback
+

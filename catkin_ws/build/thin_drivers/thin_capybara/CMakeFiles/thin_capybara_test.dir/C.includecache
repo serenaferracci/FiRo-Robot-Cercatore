@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/serena/catkin_ws/src/thin_drivers/thin_capybara/src/serial.c
+serial.h
+/home/serena/catkin_ws/src/thin_drivers/thin_capybara/src/serial.h
+errno.h
+-
+termios.h
+-
+unistd.h
+-
+string.h
+-
+stdio.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
+/home/serena/catkin_ws/src/thin_drivers/thin_capybara/src/serial.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+termios.h
+-
+unistd.h
+-
+

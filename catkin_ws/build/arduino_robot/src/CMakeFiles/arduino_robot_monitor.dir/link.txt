@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/arduino_robot_monitor.dir/arduino_robot_monitor.cpp.o  -o /home/serena/catkin_ws/devel/lib/arduino_robot/arduino_robot_monitor -rdynamic /home/serena/catkin_ws/devel/lib/libarduino_robot_library.so -lcurses -lpthread -Wl,-rpath,/home/serena/catkin_ws/devel/lib 

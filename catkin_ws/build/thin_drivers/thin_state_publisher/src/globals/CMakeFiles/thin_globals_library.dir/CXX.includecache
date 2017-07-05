@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/serena/catkin_ws/src/thin_drivers/thin_state_publisher/src/globals/system_utils.cpp
+system_utils.h
+/home/serena/catkin_ws/src/thin_drivers/thin_state_publisher/src/globals/system_utils.h
+iostream
+-
+fstream
+-
+
+/home/serena/catkin_ws/src/thin_drivers/thin_state_publisher/src/globals/system_utils.h
+sys/time.h
+-
+sys/resource.h
+-
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/serena/catkin_ws/src/thin_drivers/thin_pioneer/src/thin_pioneer_library/pioneer_lib.h
+
+/home/serena/catkin_ws/src/thin_drivers/thin_pioneer/src/thin_pioneer_library/pioneer_robot.cpp
+pioneer_robot.h
+/home/serena/catkin_ws/src/thin_drivers/thin_pioneer/src/thin_pioneer_library/pioneer_robot.h
+pioneer_lib.h
+/home/serena/catkin_ws/src/thin_drivers/thin_pioneer/src/thin_pioneer_library/pioneer_lib.h
+cmath
+-
+iostream
+-
+
+/home/serena/catkin_ws/src/thin_drivers/thin_pioneer/src/thin_pioneer_library/pioneer_robot.h
+string
+-
+
