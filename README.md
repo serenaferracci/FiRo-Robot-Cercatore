@@ -1,4 +1,4 @@
-#FiRO
+# FiRO
 
 FiRo è un acronimo per Finding Robot, ovvero RobotCercatore.
 
